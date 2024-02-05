@@ -1,0 +1,23 @@
+.button{
+    background-color: #ff9900; /* Amazon's distinctive orange color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    border: 1px solid #e47911; /* Border color similar to Amazon's button */
+    border-radius: 3px; /* Border radius for rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  
+    /* Hover effect */
+    &:hover {
+      background-color: #e47911; /* Darker orange on hover */
+    }
+}
+.buttondiv{
+    display: flex;
+   /* If you want items to stack vertically */
+  align-items: center;
+  justify-content: center;
+  /* Optional: To center vertically within the viewport */
+
+}
